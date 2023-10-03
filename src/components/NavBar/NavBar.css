@@ -1,0 +1,34 @@
+nav {
+    background: #FF1E00;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 0;
+}
+
+.logo {
+    height: 150px;
+}
+
+.cart:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+button {
+    background: #FF1E00;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18pt;
+    border: none;
+    position: relative;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
