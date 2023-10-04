@@ -1,0 +1,8 @@
+.Controls {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
