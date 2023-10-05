@@ -1,0 +1,24 @@
+.CardItem {
+    width: 50%;
+    margin: 2%;
+    max-width: 250px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.ItemImg {
+    max-width: 75%;
+}
+.CardItem:hover {
+    opacity: 100%;
+}
+.CardItem:not(:hover) {
+    opacity: 90%;
+}
+.ItemHeader {
+    font-size: medium;
+}
