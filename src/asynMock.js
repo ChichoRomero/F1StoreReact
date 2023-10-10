@@ -148,7 +148,6 @@ export const getProducts = () => {
 export const getProductsByCategory = (productCategory) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            console.log(productCategory)
             resolve(products.filter(prod => prod.category === productCategory))
         }, 1000)
     })
