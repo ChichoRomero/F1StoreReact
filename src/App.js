@@ -12,11 +12,9 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<ItemListContainer />} />
-          <Route path='/category/:category' element={<ItemListContainer />} />
+          <Route path='/category/:categoryId' element={<ItemListContainer />} />
           <Route path='/item/:itemId' element={<ItemDetailContainer />} />
           <Route path='*' element={<h1>404 Not Found</h1>} />
-          {/* <ItemListContainer greeting={'Welcome to the F1 Store'}/>
-          <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log('Items added: ', quantity)}/> */}
         </Routes>
       </BrowserRouter>
     </div>
