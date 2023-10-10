@@ -1,0 +1,12 @@
+.cart {
+    background-color: #FF1E00;
+    border-style: none;
+    color: #000000;
+    font-size: 18pt;
+}
+
+.cart:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+}

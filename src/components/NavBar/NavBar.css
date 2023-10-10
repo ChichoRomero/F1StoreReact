@@ -9,12 +9,7 @@ h1 {
 }
 
 .logo {
-    height: 150px;
-}
-
-.cart:hover {
-    background-color: #FFFFFF;
-    color: #000000;
+    height: 100px;
 }
 
 .Option {

@@ -153,10 +153,11 @@ export const getProductsByCategory = (productCategory) => {
     })
 }
 
-export const getProductsById = (productId) => {
+export const getProductsById = (itemId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(products.find(prod => prod.id === productId))
-        }, 1000)
+            const id = parseInt(itemId, 10)
+            resolve(products.find(prod => prod.id === id))
+        }, 500)
     })
 }
